@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plane Frames FEA — Supporto</title>
+<style>
+  :root {
+    --accent: #E67E22;
+    --text: #222;
+    --text-sub: #666;
+    --bg: #FAFAF8;
+    --card: #FFFFFF;
+    --border: #E0E0E0;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 36px;
+  }
+  .logo {
+    width: 48px; height: 48px;
+    background: var(--accent);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+  h1 {
+    font-size: 22px;
+    margin: 0;
+  }
+  .subtitle {
+    color: var(--text-sub);
+    font-size: 14px;
+    margin-top: 2px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 16px;
+    margin: 0 0 12px;
+    color: var(--accent);
+  }
+  p { margin: 0 0 12px; font-size: 15px; }
+  p:last-child { margin-bottom: 0; }
+  a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  a:hover { text-decoration: underline; }
+  ul { margin: 8px 0; padding-left: 20px; }
+  li { margin-bottom: 6px; font-size: 15px; }
+  .btn {
+    display: inline-block;
+    background: var(--accent);
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 4px;
+  }
+  .btn:hover { opacity: 0.9; text-decoration: none; }
+  footer {
+    text-align: center;
+    color: var(--text-sub);
+    font-size: 13px;
+    margin-top: 40px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="logo">PF</div>
+    <div>
+      <h1>Plane Frames FEA</h1>
+      <div class="subtitle">Supporto e assistenza</div>
+    </div>
+  </header>
+
+  <div class="card">
+    <h2>Hai bisogno di aiuto?</h2>
+    <p>Se riscontri un problema, hai un dubbio sull'utilizzo dell'app o vuoi
+    segnalare un bug, scrivici tramite GitHub Issues. Rispondiamo il prima
+    possibile.</p>
+    <a class="btn" href="https://github.com/pasqualerobertomarrazzo-svg/strutture_piane/issues/new"
+       target="_blank" rel="noopener">Apri una segnalazione</a>
+  </div>
+
+  <div class="card">
+    <h2>Domande frequenti</h2>
+    <p><strong>L'app funziona offline?</strong><br>
+    Sì, tutte le funzionalità di modellazione, calcolo ed esportazione
+    funzionano completamente offline.</p>
+    <p><strong>I miei modelli sono al sicuro se cambio dispositivo?</strong><br>
+    I modelli sono salvati localmente sul dispositivo. Per trasferirli su un
+    altro dispositivo, esporta il report in PDF o HTML come backup.</p>
+    <p><strong>Che convenzioni di segno usa il solutore?</strong><br>
+    L'app utilizza convenzioni standard di scienza delle costruzioni:
+    forze verticali positive verso l'alto, momento positivo se genera
+    trazione nelle fibre inferiori.</p>
+  </div>
+
+  <div class="card">
+    <h2>Contatti</h2>
+    <p>Per richieste dirette non legate a bug tecnici, puoi scrivere a:</p>
+    <p><a href="mailto:pasqualerobertomarrazzo@gmail.com">pasqualerobertomarrazzo@gmail.com</a></p>
+  </div>
+
+  <footer>
+    © 2026 Pasquale Roberto Marrazzo — Plane Frames FEA
+  </footer>
+
+</div>
+</body>
+</html>
